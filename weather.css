@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+}.home{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 15px; */
+    background-color: rgb(84, 84, 148)
+}
+.links a{
+    
+    text-decoration: none;
+    color: rgba(17, 16, 16, 0.925);
+    font-size: 20px;
+    margin: 0px 15px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    
+}
+.links a:hover{
+    color: rgba(128, 128, 128, 0.767);
+    text-decoration: overline;
+}
+.searchCity,.location{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.searchCity input{
+    height: 40px;
+    width: 500px;
+    outline: none;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+.searchCity button{
+    font-size: 18px;
+    padding: 0px 20px;
+    border: none;
+    background-color: rgb(10, 219, 247);
+    color: white;
+    
+}
+.weatherinfo{
+    background-color: whitesmoke;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    opacity: 0.7;
+
+}
+.weatherinfo h1{
+    font-size: 64px;
+    padding: 60px 0px;
+}
+.location{
+    color:white;
+}

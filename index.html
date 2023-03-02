@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="icon" href="./images/weathericon.png.png" type="image/x-icon">
+</head>
+<body>
+    
+    <section class="home">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./images/weathericon.png.png" height="" width="100" alt="">
+            </div>
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+                <a href="">Sign in</a>
+            </div>
+            <div class="links"></div>
+        </div>
+        <div class="search">
+        <div class="searchCity">
+            <input type="text" id="search" placeholder="enter a city name">
+            <button onclick="getInfo()">Search</button>
+        </div>
+        <div class="location">
+            <img src="./images/location.svg" width="30px" alt="">
+            <p id="cityName">City Name</p>
+        </div>
+    </div>
+        <div class="weatherinfo">
+            <h1><span id="temp">0</span><sup>o</sup>C</h1>
+        </div>
+    
+    </section>
+    <script src="weather.js"></script>
+</body>
+</html>
